@@ -4,7 +4,7 @@ import os
 
 db = couchdb.Server('http://admin:admin@localhost:5984')
 
-path = ''
+path = '/data/data'
 
 keys = ['southern', 'western', 'vic', 'nsw', 'tas', 'queens']
 
